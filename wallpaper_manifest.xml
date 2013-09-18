@@ -14,85 +14,99 @@
         name="<wallpaper name">
     -->
 
-    <category name="CM Walls" >
-
-        <wallpaper
-            author="Asher Simonds"
-            url="http://pac-rom.com/wallpapers/cm/wallpaper_ashersimonds_cmpatternholodark.png" />
-
-        <wallpaper
-            author="Asher Simonds"
-            url="http://pac-rom.com/wallpapers/cm/wallpaper_ashersimonds_cmpatternhololight.png" />
-
-        <wallpaper
-            author="Cid3D"
-            url="http://pac-rom.com/wallpapers/cm/wallpaper_manup456_cid3d.jpg" />
-
-        <wallpaper
-            author="Prash"
-            url="http://pac-rom.com/wallpapers/cm/wallpaper_prash_ohaimark.png" />
-
-        <wallpaper
-            author="Tyler Hodge"
-            url="http://pac-rom.com/wallpapers/cm/wallpaper_tylerhodge_blueperfection.jpg" />
-    </category>
-
     <category name="AOKP Walls" >
 
         <wallpaper
-            author="ThaPHLASH"
-            url="http://aokp.co/wallpapers/thaplash_logo_head_office.jpg" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/001.jpg" />
 
         <wallpaper
-            author="ThaPHLASH"
-            url="http://aokp.co/wallpapers/thaplash_logo_head_office2.jpg" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/002.png" />
 
         <wallpaper
-            author="JaiThemes"
-            url="http://aokp.co/wallpapers/jaithemes_striped_blue.jpg" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/003.jpg" />
 
         <wallpaper
-            author="JaiThemes"
-            url="http://aokp.co/wallpapers/jaithemes_striped.jpg" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/004.jpg" />
 
         <wallpaper
-            author="Just_Reboot"
-            url="http://aokp.co/wallpapers/just_reboot_wall_10.png" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/005.png" />
 
         <wallpaper
-            author="KnokFirst"
-            url="http://aokp.co/wallpapers/knokfirst_phlashlogo_crazy.jpg" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/006.jpg" />
 
         <wallpaper
-            author="Just_Reboot"
-            url="http://aokp.co/wallpapers/knokfirst_phlashlogo.jpg" />
-    </category>
-
-    <category name="PA Walls" >
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/007.jpg" />
 
         <wallpaper
-            author="UNKNOWN"
-            url="http://pac-rom.com/wallpapers/paranoid/pa1.png" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/008.jpg" />
 
         <wallpaper
-            author="UNKNOWN"
-            url="http://pac-rom.com/wallpapers/paranoid/pa2.png" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/009.jpg" />
 
         <wallpaper
-            author="UNKNOWN"
-            url="http://pac-rom.com/wallpapers/paranoid/pa3.png" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/010.jpg" />
 
         <wallpaper
-            author="UNKNOWN"
-            url="http://pac-rom.com/wallpapers/paranoid/pa4.png" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/011.jpg" />
 
         <wallpaper
-            author="UNKNOWN"
-            url="http://pac-rom.com/wallpapers/paranoid/pa5.png" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/012.jpg" />
 
         <wallpaper
-            author="UNKNOWN"
-            url="http://pac-rom.com/wallpapers/paranoid/pa6.png" />
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/013.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/014.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/015.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/016.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/017.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/018.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/019.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/020.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/021.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/022.jpg" />
+
+        <wallpaper
+            author="Unknown"
+            url="http://dirtyunicorns.com/walls/AOKP/023.jpg" />
     </category>
 
 </wallpapers>
