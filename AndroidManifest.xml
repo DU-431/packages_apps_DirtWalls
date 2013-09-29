@@ -30,6 +30,7 @@
         <activity android:name=".Vote" />
        <activity
             android:name="NoWallpaper"
+            android:icon="@mipmap/ic_nowallpaper"
             android:label="@string/no_wallpaper" >
             <intent-filter>
                 <action android:name="android.intent.action.SET_WALLPAPER" />
