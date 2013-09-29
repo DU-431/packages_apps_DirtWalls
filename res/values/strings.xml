@@ -21,5 +21,6 @@
     <string name="saving_wallpaper">Saving Wallpaper</string>
     <string name="category_name">Category Name</string>
     <string name="choose_category">Choose category</string>
+    <string name="no_wallpaper">No Wallpaper</string>
 
 </resources>
