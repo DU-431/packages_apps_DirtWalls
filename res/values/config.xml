@@ -8,6 +8,6 @@
     <string name="config_wallpaper_download_loc"></string>
 
     <!-- url to the wallpaper manifest -->
-    <string name="config_wallpaper_manifest_url">https://raw.github.com/DirtyUnicorns/packages_apps_DirtWalls/gh-pages/wallpaper_manifest.xml</string>
+    <string name="config_wallpaper_manifest_url">https://raw.github.com/DU-Final/packages_apps_DirtWalls/gh-pages/wallpaper_manifest.xml</string>
 
 </resources>
