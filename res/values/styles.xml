@@ -1,7 +1,5 @@
 <resources>
 
-    <style name="action_bar_style" parent="android:Widget.ActionBar">
-        <item name="android:background">@color/action_bar_color</item>
-    </style>
+    <style name="AppTheme" parent="android:Theme.Light" />
 
 </resources>
