@@ -1,42 +1,6 @@
 
 package com.td.dirtwalls.ui;
 
-import android.app.ActionBar;
-import android.app.Activity;
-import android.app.Dialog;
-import android.app.ProgressDialog;
-import android.app.WallpaperManager;
-import android.content.Intent;
-import android.content.res.Configuration;
-import android.graphics.Bitmap;
-import android.graphics.Bitmap.Config;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.ProgressBar;
-import android.widget.Toast;
-
-import com.koushikdutta.urlimageviewhelper.UrlImageViewCallback;
-import com.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
-import com.td.dirtwalls.R;
-import com.td.dirtwalls.WallpaperActivity;
-import com.td.dirtwalls.R.id;
-import com.td.dirtwalls.R.layout;
-import com.td.dirtwalls.R.menu;
-import com.td.dirtwalls.R.string;
-import com.td.dirtwalls.util.helpers;
-
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -47,6 +11,37 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import android.annotation.SuppressLint;
+import android.app.ActionBar;
+import android.app.Activity;
+import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.app.WallpaperManager;
+import android.content.Intent;
+import android.content.res.Configuration;
+import android.graphics.Bitmap;
+import android.graphics.Bitmap.Config;
+import android.graphics.Canvas;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.Toast;
+
+import com.koushikdutta.urlimageviewhelper.UrlImageViewCallback;
+import com.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
+import com.td.dirtwalls.R;
+import com.td.dirtwalls.WallpaperActivity;
+import com.td.dirtwalls.util.helpers;
 
 public class Preview extends Activity {
 
@@ -239,7 +234,7 @@ public class Preview extends Activity {
             showDialog(DIALOG_DOWNLOAD_IMAGE);
         }
 
-        @Override
+        @SuppressLint("SimpleDateFormat") @Override
         protected String doInBackground(String... aurl) {
             int count;
 

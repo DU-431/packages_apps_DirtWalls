@@ -1,38 +1,6 @@
 
 package com.td.dirtwalls;
 
-import android.app.ActionBar;
-import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.os.Environment;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
-
-import com.koushikdutta.urlimageviewhelper.UrlImageViewCallback;
-import com.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
-import com.td.dirtwalls.adapters.NavigationBarCategoryAdapater;
-import com.td.dirtwalls.parsers.ManifestXmlParser;
-import com.td.dirtwalls.types.Wallpaper;
-import com.td.dirtwalls.types.WallpaperCategory;
-import com.td.dirtwalls.ui.WallpaperPreviewFragment;
-import com.td.dirtwalls.util.*;
-
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.InputStream;
@@ -40,6 +8,21 @@ import java.io.OutputStream;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
+
+import android.app.ActionBar;
+import android.app.Activity;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.app.ProgressDialog;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+
+import com.td.dirtwalls.adapters.NavigationBarCategoryAdapater;
+import com.td.dirtwalls.parsers.ManifestXmlParser;
+import com.td.dirtwalls.types.WallpaperCategory;
+import com.td.dirtwalls.ui.WallpaperPreviewFragment;
+import com.td.dirtwalls.util.helpers;
 
 public class WallpaperActivity extends Activity {
 
@@ -117,17 +100,15 @@ public class WallpaperActivity extends Activity {
                     URL url = new URL(helpers.getResourceString(WallpaperActivity.this.getApplicationContext(), R.string.config_wallpaper_manifest_url));
                     URLConnection connection = url.openConnection();
                     connection.connect();
-                    int fileLength = connection.getContentLength();
+                    connection.getContentLength();
                     input = new BufferedInputStream(url.openStream());
                 }
                 
                 OutputStream output = getApplicationContext().openFileOutput(
                         MANIFEST, MODE_PRIVATE);
                 byte data[] = new byte[1024];
-                long total = 0;
                 int count;
                 while ((count = input.read(data)) != -1) {
-                    total += count;
                     output.write(data, 0, count);
                 }
 

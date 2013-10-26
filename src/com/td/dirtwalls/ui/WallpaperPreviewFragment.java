@@ -2,16 +2,9 @@ package com.td.dirtwalls.ui;
 
 import java.util.ArrayList;
 
-import com.td.dirtwalls.R;
-import com.td.dirtwalls.WallpaperActivity;
-import com.td.dirtwalls.adapters.WallpaperPreviewAdapter;
-import com.td.dirtwalls.types.Wallpaper;
-import com.td.dirtwalls.types.WallpaperCategory;
-
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -23,6 +16,11 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
+
+import com.td.dirtwalls.R;
+import com.td.dirtwalls.adapters.WallpaperPreviewAdapter;
+import com.td.dirtwalls.types.Wallpaper;
+import com.td.dirtwalls.types.WallpaperCategory;
 
 public class WallpaperPreviewFragment extends Fragment {
 
